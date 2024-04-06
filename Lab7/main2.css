@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-color: lightgray !important;
+}
+.nav__body {
+    width: 86%;
+    height: 50px;
+    margin: 140px 7% 0 7%;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.nav__title {
+    width: 86%;
+    margin: 20px 7% 0 7%;
+}
+.main__title_nav {
+    font-size: 23px;
+}
+.text__section_title {
+    margin: 0 20px;
+}
+.text__sp_mar>div>p{
+    margin: 0;
+    padding: 0 10px;
+}
+.btn__checkout {
+    border: none;
+    border-radius: 2px;
+    padding: 10px 0;
+    background-color: rgb(82, 168, 82);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.canchinh {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+.btn__sp {
+    background-color: gray;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+}
+.container__2 {
+    background-color: white;
+} 
+.margin {
+    margin: 0;
+}
+.cc {
+    width: 66.5%;
+}  
+@media only screen and (max-width: 1024px){
+    .text {
+        font-size: 14px;
+    }
+    .text__1 {
+        font-size: 14px;
+    }
+    .btn__checkout {
+        margin-top: 20px;
+    }
+    .hnt__set_center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hnt__set_margin {
+        margin: 30px 0 !important;
+    }
+    .cc {
+        width: 100%;
+    }
+    .nav__body {
+        width: 92%;
+        margin: 150px 4% 20px;
+    }
+    .nav__title {
+        width: 92%;
+        margin: 0 4%;
+    }
+}
+@media only screen and (max-width: 520px){
+    .nav__body {
+        width: 94%;
+        margin: 70px 3% 20px;
+    }
+    .nav__title {
+        width: 94%;
+        margin: 0 3%;
+    }
+    .last__footer_img {
+        display: none;
+    }
+    .text__banner_main {
+        width: 100%;
+    }
+    .text__banner_sub {
+        width: 100%;
+    }
+    .container__2 {
+        padding: 0 10px 20px;
+    }
+    .icon__internet {
+        justify-content: center;
+    }
+    .section__title.d-flex {
+        display: none !important;
+    }
+    .image__sp_section {
+        margin: 10px 0 !important;
+    }
+    .sp__section {
+        text-align: center;
+    }
+    .text__sp_mar p{
+        margin: 0 10px !important;
+    }
+    .text__sp_mar {
+        margin-bottom: 20px;
+    }
+    .btn__sp {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="main1.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.css">
+</head>
+<body>
+    <div class="header fixed-top">
+        <div class="container-fluid d-flex justify-content-between bg-success text-light none" style="padding: 0 2%;">
+            <ul class="nav">
+                <li class="nav-item">HELP</li>
+                <li class="nav-item"><i class="fa-solid fa-phone"></i> +84 965189712</li>
+            </ul>
+            <ul class="nav">
+                <li class="nav-item">MY ACCOUNT</li>
+                <li class="nav-item">SIGN</li>
+                <li class="nav-item">CREATE ACCOUNT</li>
+            </ul>
+        </div>
+        <nav class="navbar navbar-expand-sm d-flex justify-content-between text-light" style="background-color: rgb(82, 168, 82); padding: 0 3%;">
+            <div class="navbar navbar-expand-sm">
+                <div class="wth">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/logo-removebg-preview.png" alt="" class="rounded-fill" style="width: 100%;">
+                    </a>
+                </div>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar navbar-expand-sm collapse navbar-collapse" id="collapsibleNavbar">
+                    <p>HOME</p>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" data-bs-toggle="dropdown">NEW PRODUCTS</button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">product one</li>
+                            <li class="dropdown-item">product two</li>
+                            <li class="dropdown-item">product three</li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" data-bs-toggle="dropdown">SHOP</button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">1</li>
+                            <li class="dropdown-item">2</li>
+                            <li class="dropdown-item">3</li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" data-bs-toggle="dropdown">PAGES</button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">1</li>
+                            <li class="dropdown-item">2</li>
+                            <li class="dropdown-item">3</li>
+                        </ul>
+                    </div>
+                    <p>ALL PAGE LINK</p>
+                </div>
+            </div>
+            <div class="navbar navbar-expand-sm collapse navbar-collapse">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-cart-shopping"></i> CART ($210.00)</button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">1</li>
+                        <li class="dropdown-item">2</li>
+                        <li class="dropdown-item">3</li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </nav>
+    </div>
+    <div class="nav__body"><p style="margin: 0 20px; line-height: 50px;">Home / Cater / Cart</p></div>
+    <div class="nav__title d-flex justify-content-between align-items-center">
+        <p class="main__title_nav"><i class="fa-solid fa-cart-shopping"></i>Shopping cart</p>
+        <p class="sub__title_nav"><i class="fa-solid fa-chevron-left"></i> BACK TO SHOPPING</p>
+    </div>
+    <div class="container" style="margin-top: 20px;">
+        <div class="row justify-content-between margin">
+            <div class="col-xl-8 col-sm-12" style="padding: 0; background-color: white; border: 1px solid gray;">
+                <div class="section__title d-flex justify-content-between align-items-center" style="height: 50px; background-color: rgb(241, 241, 241); border-bottom: 1px solid gray;">
+                    <div class="d-flex align-items-center">
+                        <p class="text__section_title">PRODUCT</p>
+                        <p class="text__section_title">DETAILS</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p class="text__section_title">QNT</p>
+                        <p class="text__section_title">DISCOUNT</p>
+                        <p class="text__section_title">TOTAL</p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between" style="border-bottom: 1px solid lightgray; margin: 0;">
+                    <div class="sp__section col-xl-4 col-sm-4">
+                        <div class="row d-flex align-items-center margin">
+                            <img src="image__gallery/xie_4.jpg" alt="" class="image__sp_section col-xl-6 col-sm-6" style="margin: 10px;">
+                            <div class="info__sp_section col-xl-5 col-sm-5">
+                                <p class="name__sp_section">Denim T shirt Black</p>
+                                <p>12 x 1.5 L</p>
+                                <p class="price__sp_section" style="font-weight: bold;">$8.80</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text__sp_mar col-xl-4 col-sm-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-trash" style="margin: 0 5px;"></i>
+                        <div class="sl d-flex align-items-center margin" style="cursor: pointer;">
+                            <p>-</p>
+                            <p style="border: 1px solid lightgray;">1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="margin: 0 15%;">0</p>
+                        <p class="total__price" style="margin: 0 12%; font-weight: bold;">$300</p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between" style="border-bottom: 1px solid lightgray; margin: 0;">
+                    <div class="sp__section col-xl-4 col-sm-4">
+                        <div class="row d-flex align-items-center margin">
+                            <img src="image__gallery/xie_4.jpg" alt="" class="image__sp_section col-xl-6 col-sm-6" style="margin: 10px;">
+                            <div class="info__sp_section col-xl-5 col-sm-5">
+                                <p class="name__sp_section">Denim T shirt Black</p>
+                                <p>12 x 1.5 L</p>
+                                <p class="price__sp_section" style="font-weight: bold;">$8.80</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text__sp_mar col-xl-4 col-sm-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-trash" style="margin: 0 5px;"></i>
+                        <div class="sl d-flex align-items-center margin" style="cursor: pointer;">
+                            <p>-</p>
+                            <p style="border: 1px solid lightgray;">1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="margin: 0 15%;">0</p>
+                        <p class="total__price" style="margin: 0 12%; font-weight: bold;">$300</p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between" style="border-bottom: 1px solid lightgray; margin: 0;">
+                    <div class="sp__section col-xl-4 col-sm-4">
+                        <div class="row d-flex align-items-center margin">
+                            <img src="image__gallery/xie_4.jpg" alt="" class="image__sp_section col-xl-6 col-sm-6" style="margin: 10px;">
+                            <div class="info__sp_section col-xl-5 col-sm-5">
+                                <p class="name__sp_section">Denim T shirt Black</p>
+                                <p>12 x 1.5 L</p>
+                                <p class="price__sp_section" style="font-weight: bold;">$8.80</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text__sp_mar col-xl-4 col-sm-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-trash" style="margin: 0 5px;"></i>
+                        <div class="sl d-flex align-items-center margin" style="cursor: pointer;">
+                            <p>-</p>
+                            <p style="border: 1px solid lightgray;">1</p>
+                            <p>+</p>
+                        </div>
+                        <p style="margin: 0 15%;">0</p>
+                        <p class="total__price" style="margin: 0 12%; font-weight: bold;">$300</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-12 hnt__set_center" style="padding: 0;">
+                <button class="btn__checkout col-xl-12 col-sm-4 col-8">Proceed to checkout <i class="fa-solid fa-arrow-right-long"></i></button>
+                <div class="card col-sm-12 col-12">
+                    <div class="card-body">
+                        <div class="canchinh">
+                            <p>Total products</p>
+                            <p style="font-weight: bold;">$216.51</p>
+                        </div>
+                        <div class="canchinh">
+                            <p>Shipping</p>
+                            <p style="font-weight: bold; color: yellowgreen;">Free shipping!</p>
+                        </div>
+                        <div class="canchinh">
+                            <p>Total(tax excl.)</p>
+                            <p style="font-weight: bold;">4216.51</p>
+                        </div>
+                        <div class="canchinh">
+                            <p>Total tax</p>
+                            <p style="font-weight: bold;">$0.00</p>
+                        </div>
+                        <div class="canchinh">
+                            <p>Total</p>
+                            <p style="font-weight: bold; color: rgb(82, 168, 82);">$216.51</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <input type="text" id="input__coupon" placeholder="Coupon code" style="border: 1px solid lightgray; border-radius: 2px; padding: 10px; width: 100%;">
+                            <label for="input__coupon" style="padding: 10px 20px; background-color: rgb(82, 168, 82); font-weight: bold; color: white; border: 1px solid rgb(82, 168, 82);">Apply!</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cc">
+            <div class="row col-sm-12 justify-content-between col-12" style="margin: 20px 0;">
+                <button class="btn__sp col-xl-3 col-sm-4 col-4"><i class="fa-solid fa-arrow-left"></i> Continues Shopping</button>
+                <button class="btn__sp col-xl-3 col-sm-4 col-4"><i class="fa-solid fa-rotate-right"></i> Update cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container__2">
+        <div class="row" style="margin: 0; text-align: center;">
+            <div class="col-sm-2 col-xl-3">
+                <p class="text__footer_1">SUPPORT</p>
+                <p class="text__footer_2">Lorem ipsum dolor sit amet consectetur</p>
+                <p class="text__footer_3"><i class="fa-solid fa-phone"></i> +84 349085818</p>
+                <p class="text__footer_2"><i class="fa-solid fa-envelope"></i> Xie23@gmail.com</p>
+            </div>
+            <div class="col-sm-1 col-xl-2">
+                <p class="text__footer_1">SHOP</p>
+                <p class="text__footer_2">Men's</p>
+                <p class="text__footer_2">Women's</p>
+                <p class="text__footer_2">Kid's</p>
+                <p class="text__footer_2">Shoes</p>
+                <p class="text__footer_2">Gift card</p>
+            </div>
+            <div class="col-sm-3 col-xl-2">
+                <p class="text__footer_1">INFORMATION</p>
+                <p class="text__footer_2">Question ?</p>
+                <p class="text__footer_2">Order Status</p>
+                <p class="text__footer_2">Sizing Charts</p>
+                <p class="text__footer_2">Return Policy</p>
+                <p class="text__footer_2">Contact us</p>
+            </div>
+            <div class="col-sm-3 col-xl-2">
+                <p class="text__footer_1">MY ACCOUNT</p>
+                <p class="text__footer_2">My account</p>
+                <p class="text__footer_2">My address</p>
+                <p class="text__footer_2">Wish list</p>
+                <p class="text__footer_2">Order list</p>
+                <p class="text__footer_2">Order Status</p>
+            </div>
+            <div class="col-sm-3 col-xl-3 mb">
+                <p class="text__footer_1">STAY IN TOUCH</p>
+                <button class="btn__email"><p class="text__btn_footer">Email</p></button>
+                <button class="btn__sub"><p class="text__btn_footer">SUBSCRIBE -></p></button>
+                <div class="icon__internet">
+                    <div class="icon__internet_set"><i class="fa-brands fa-facebook"></i></div>
+                    <div class="icon__internet_set"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="icon__internet_set"><i class="fa-brands fa-google"></i></div>
+                    <div class="icon__internet_set"><i class="fa-brands fa-pinterest"></i></div>
+                    <div class="icon__internet_set"><i class="fa-brands fa-youtube"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last__footer">
+        <p class="last__footer_text">© HNTDS 2014. All right reserved.</p>
+        <div class="last__footer_img">
+            <img src="image__gallery/40.jpg" alt="" class="picture__last_footer">
+            <img src="image__gallery/40.jpg" alt="" class="picture__last_footer">
+            <img src="image__gallery/40.jpg" alt="" class="picture__last_footer">
+            <img src="image__gallery/40.jpg" alt="" class="picture__last_footer">
+            <img src="image__gallery/40.jpg" alt="" class="picture__last_footer">
+        </div>
+    </div>
+</body>
+</html>
